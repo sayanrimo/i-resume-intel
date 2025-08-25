@@ -1,0 +1,24 @@
+# requirements.txt
+
+streamlit==1.39.0
+streamlit-option-menu==0.3.12
+pandas==2.2.2
+plotly==5.22.0
+
+# Pinning LangChain and its dependencies to known compatible versions
+langchain==0.2.5
+langchain-community==0.2.5
+huggingface-hub==0.23.4
+
+# Pinning ML libraries
+pydantic==2.8.2
+spacy==3.7.5
+sentence-transformers==3.0.1
+transformers==4.42.3
+faiss-cpu==1.8.0
+torch==2.3.1
+
+# Other utilities
+python-docx==1.1.2
+pypdf==4.2.0
+python-dotenv==1.0.1

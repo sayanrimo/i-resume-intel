@@ -1,0 +1,14 @@
+# compose.yml
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: infra/docker/Dockerfile
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./:/app
+    # This securely loads variables from your .env file
+    env_file:
+      - .env
